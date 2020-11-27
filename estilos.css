@@ -68,6 +68,7 @@ body{
 }
 .main__TI{
     display: flex  ;
+    padding:0 0 10rem;
    
 }
 
@@ -84,6 +85,58 @@ body{
     padding:0 0 2rem;
     font-weight: 500;
 }
+.contenedor{
+ background-color: #eee;  
+ margin: 0 auto;
+ max-width: var(--ancho-maximo);
+}
+.search{
+   
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    bottom: 4.5rem;
+    border-radius: 0.5rem;
+    background-image: url(../images/bg-shorten-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 27%, 26%);
+    
+}
+.search__text{
+    width: 80%;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    color: var(--GrayishViolet);
+    font-size: 0.9rem;
+}
+.btn__search{
+    color: white;
+    padding: 0.5rem 1.2rem;
+    background-color:var(--Cyan);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: var(--Bright-Red) 0px 4px 10px;  
+}
+.contenor__subT{
+    text-align: center;
+}
+.subT__titulo{
+   
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--VeryDarkBlue);
+}
+.subT_p{
+    font-weight: 500;
+    color: var(--GrayishViolet);
+}
 
 
 
@@ -91,6 +144,9 @@ body{
 @media screen and (max-width: 1440px){
 .header {
     padding: 0 10rem;
+}
+.contenedor{
+    padding: 0 5.5rem;
 }
 }
 
